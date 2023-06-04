@@ -1,0 +1,171 @@
+#color-link{
+    color:green;
+}
+
+#color-fondoNav{
+    background-color: rgb(52, 58, 64);
+}
+
+#navbarNav{
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+
+#m-logo{
+    margin-left: 60px;
+}
+
+.btn-outline-info{
+    color:white;
+    border-color:white;
+}
+
+
+
+
+#titulo-section{
+    text-align: center;
+    padding:0.5em;
+}
+
+section > div#titulo-section > h6{
+    font-size:90%;
+}
+    
+
+#margenes-contenedor-cards{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.contenedor-badges{
+    margin-left:15px;
+    margin-top:20px;
+}
+
+.card-body{
+    padding-top:5px;
+   
+}
+
+.card{
+    margin-left:10px;
+    margin-right:10px;
+}
+ .card-text{
+     font-size:80%;
+ }
+
+
+
+.col-6{
+    height:350px;
+    /*background-color: rgb(52, 58, 64);*/
+    margin-top:15px;
+
+}
+
+.imagen-fondo{
+    background-image:url(img/honolulu.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.caja-texto2{
+    background-color: rgb(52, 58, 64);
+    color:white;
+    font-size:70%;
+    line-height: 200%;
+    padding-top: 15px;
+
+}
+
+#titulo-section > h6 > a{
+    text-decoration-line:none;
+    border-bottom:1px dotted blue;
+}
+
+
+#titulo-section>h6>a:hover{
+    color:red;
+    
+}
+
+
+
+
+.btn-success{
+    background-color:rgb(142,180,68);
+    /*width: 100%;*/
+
+}
+
+.btn-enviar{
+    width:100%;
+}
+
+
+footer{
+    /*background-color: blue;*/
+    background-image: linear-gradient(to right,RGB(29,55,69) ,RGB(30,83,114));
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top:10px;
+}
+
+footer > div.row >div.col{
+    /*height: 100vh;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+   
+
+footer > div.row > div.col > a{
+    color:white;
+    text-decoration-line: none;
+    font-size:80%;
+    text-align:center;
+}
+
+footer > div.row{
+    justify-content: center;
+}
+
+.contenido{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+h5.card-title{
+    font-size: 1rem;
+}
+
+
+ /* ... MEDIA QUERY... */  
+  
+    
+ /*Small devices (landscape phones, less than 768px)*/
+ /*@media (max-width: 767.98px) {
+     body{
+         background-color: darkblue;
+         
+        }
+        .row-padreFlex{
+            display:flex;
+            flex-wrap:wrap;
+
+        }
+
+     }
+
+
+
+  }
+ */
